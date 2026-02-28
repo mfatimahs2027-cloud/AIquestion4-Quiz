@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* You can keep this here or move it to styles.css */
+        .responsive-img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .caption {
+            text-align: center;
+            font-style: italic;
+            margin-top: 10px;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER — copy exactly from index.html -->
+    <header>
+        <h1>My Data Visualization Gallery</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Study Hours vs Exam Score</h2>
+
+        <img src="images/study_hours_vs_score.png"
+             alt="Scatter plot showing the relationship between study hours and exam scores."
+             class="responsive-img">
+
+        <p class="caption">
+            This chart shows a positive correlation between the number of hours students studied and their exam scores.
+            Based on this trend, I would decide to increase study time before exams to improve performance.
+        </p>
+    </main>
+
+    <!-- FOOTER — copy exactly from index.html -->
+    <footer>
+        <p>&copy; 2024 My Website</p>
+    </footer>
+
+</body>
+</html>
+
